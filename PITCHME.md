@@ -1,14 +1,16 @@
 # _Comments_ 
 
 ---
-@snap[]
+
+## Table of Contents
+
 ## Table of Contents
 
 * [Introduction](#Introduction)
 * [Good Comments](#Good-Comments)
 * [Bad Comments](#Bad-Comments)
 * [References](#References)
-@spanend
+
 ---
 ##  Introduction
  
