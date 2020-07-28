@@ -1,7 +1,10 @@
-# Let's Get **Started**
+---?color=linear-gradient(180deg, white 75%, black 25%)
 
 ---
-# /* _Comments_ */
+# Let's Get **Started**
+# // _Comments_ 
+---
+
  
 ## Table of Contents
 
