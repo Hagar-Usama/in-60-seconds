@@ -9,14 +9,16 @@
 * [Bad Comments](#Bad-Comments)
 * [References](#References)
 
-@snapend
+
 ---
 ## Good Comments
 
-@snapend
+
 ---
 
 ## Bad Comments
+
+---
 
 ### Mumbling
  His mumbling left behind an _enigma_
@@ -38,7 +40,8 @@ public void loadProperties()
    }
 
 ```
-@snapend
+
+---
 
 ### Redundant Comments
 > If comments are not inforamtives, add no value to your code, just remove them.
@@ -54,15 +57,15 @@ public void loadProperties()
       throw new Exception("MockResponseSender could not be closed");      }
 
 ```
-@snapend
+
+--- 
 
 ### Misleading Comments
 > Code never lies, comments do sometimes
 
 > Comments should desribe what your code **actualy** do, but not what you **wish** your code to do.
 
-@snapend
-
+---
 
 ### Mandated Comments
 > Do not add a comment for each function or  variable. If they do not need commenting, leave them uncommented.
@@ -85,8 +88,7 @@ public void loadProperties()
    }
 
 ```
-
-@snapend
+---
 
 ### Journal Commnets
 >  Adding a log-like comment isn't a good idea.<br> ⚠ Hey, we have version control now!
@@ -114,7 +116,7 @@ public void loadProperties()
  * 04-Sep-2003 : Implemented Comparable.  Updated the isInRange javadocs (DG);
  * 05-Jan-2005 : Fixed bug in addYears() method (1096282) (DG);
 ```
-@snapend
+---
 
 ### Noise Comments
 * Stating the Obvious
@@ -129,7 +131,8 @@ bootstrap.enableASARSupport();
 require('./bootstrap-amd').load('vs/code/node/cli');
 
 ```
-@snapend
+
+---
 
 ### Scary Noise Comments
 
@@ -149,7 +152,7 @@ require('./bootstrap-amd').load('vs/code/node/cli');
 ```
 
 ---
-@snapend
+
 
 ## References
 * Clean Code - ch4
