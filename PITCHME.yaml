@@ -8,7 +8,7 @@ published : true
 # The Theme Template
 # Doc: https://gitpitch.com/docs/themes/default
 #
-theme : Night
+theme : Black
 theme-background : [ "linear-gradient(100deg, white 60%, #1F6ED4 40.2%)" ]
 theme-headline   : [ "Montserrat", "#333", "none" ]
 theme-byline     : [ "Montserrat", "#111111", "none" ]
@@ -37,6 +37,6 @@ footnote : "GitPitch Slide Design Templates"
 # Twitter Card Settings
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
-title : "GitPitch Slide Design Templates"
+title : "Clean Code - Comments"
 description : "A collection of markdown snippets used to create high-utility slide designs within GitPitch slide decks."
 # thumbnail : assets/img/thumb.png
