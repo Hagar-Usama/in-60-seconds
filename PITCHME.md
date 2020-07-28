@@ -273,6 +273,7 @@ System.err.println("Error:" + e.getMessage());
 
 ```
 ---
+
 ### Attributions and Bylines
 /* Added by Rick */
 Source code control systems are very good at remembering who added what, when.
@@ -280,6 +281,7 @@ There is no need to pollute the code with little bylines.
 Again, the source code control system is a better place for this kind of information.
 
 ----
+
 ### Commented out Code
   ```java
   InputStreamResponse response = new InputStreamResponse();
