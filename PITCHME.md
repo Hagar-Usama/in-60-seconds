@@ -128,7 +128,7 @@ public void loadProperties()
 ### Misleading Comments
 > Code never lies, comments do sometimes
 
-> Comments should desribe what your code **actualy** do, but not what you **wish** your code to do.
+> Comments should desribe what your code **actually** do, but not what you **wish** your code to do.
 
 ---
 
