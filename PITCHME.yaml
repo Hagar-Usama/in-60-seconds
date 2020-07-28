@@ -8,7 +8,7 @@ published : true
 # The Theme Template
 # Doc: https://gitpitch.com/docs/themes/default
 #
-theme : template
+theme : black
 theme-background : [ "linear-gradient(100deg, white 60%, #1F6ED4 40.2%)" ]
 theme-headline   : [ "Montserrat", "#333", "none" ]
 theme-byline     : [ "Montserrat", "#111111", "none" ]
