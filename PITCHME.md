@@ -21,7 +21,7 @@
 ## Bad Comments
 
 ---
-@snap[north-east span-100 text-pink text-06]
+@snap[text-pink]
 ### Mumbling
  His mumbling left behind an _enigma_
 
@@ -48,8 +48,7 @@ public void loadProperties()
 
 ---
 
-@snap[north-east span-100 text-pink text-06]
-
+@snap[text-pink]
 ### Redundant Comments
 > If comments are not inforamtives, add no value to your code, just remove them.
 
@@ -69,7 +68,7 @@ public void loadProperties()
 ```
 
 --- 
-@snap[north-east span-100 text-pink]
+@snap[text-pink]
 ### Misleading Comments
 > Code never lies, comments do sometimes
 
@@ -77,7 +76,7 @@ public void loadProperties()
 @snapend
 ---
 
-@snap[north-east span-100 text-pink]
+@snap[text-pink]
 ### Mandated Comments
 > Do not add a comment for each function or  variable. If they do not need commenting, leave them uncommented.
 @snapend
@@ -102,7 +101,7 @@ public void loadProperties()
 
 ```
 ---
-@snap[north-east span-100 text-pink]
+@snap[text-pink]
 ### Journal Commnets
 >  Adding a log-like comment isn't a good idea.<br> ⚠ Hey, we have version control now!
 
@@ -132,9 +131,9 @@ public void loadProperties()
  * 05-Jan-2005 : Fixed bug in addYears() method (1096282) (DG);
 ```
 ---
-@snap[north-east span-100 text-pink]
+@snap[text-pink]
 ### Noise Comments
-@snap
+@snapend
 
 * Stating the Obvious
 ```javascript
@@ -150,7 +149,7 @@ require('./bootstrap-amd').load('vs/code/node/cli');
 ```
 
 ---
-@snap[north-east span-100 text-pink]
+@snap[text-pink]
 ### Scary Noise Comments
 @snapend
 
@@ -171,7 +170,7 @@ require('./bootstrap-amd').load('vs/code/node/cli');
 
 ---
 
-@snap[north-east span-100 text-pink]
+@snap[text-pink]
 ## References
 * Clean Code - ch4
 * [Five code comments you should stop writing // and one you should start](https://www.freecodecamp.org/news/5-comments-you-should-stop-writing-and-1-you-should-start-4d66a367cd2c/)
