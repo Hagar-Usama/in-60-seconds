@@ -4,8 +4,6 @@
 
 ## Table of Contents
 
-## Table of Contents
-
 * [Introduction](#Introduction)
 * [Good Comments](#Good-Comments)
 * [Bad Comments](#Bad-Comments)
