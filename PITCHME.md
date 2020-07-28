@@ -49,21 +49,24 @@ public void loadProperties()
 
 
 ### Redundant Comments
-> If comments are not inforamtives, add no value to your code, just remove them.
+> If comments are not inforamtive, add no value to your code, just remove them.
 
  The comment probably takes longer to read than the code itself.
  
-
 
 ```java
  // Utility method that returns when this.closed is true.  Throws an exception
  // if the timeout is reached.
 
- public synchronized void waitForClose(final long timeoutMillis)  throws Exception   {     
-      if(!closed)      {       
+ public synchronized void waitForClose(final long timeoutMillis)
+ throws Exception
+ {     
+      if(!closed)
+      {       
        wait(timeoutMillis);
       if(!closed)
-      throw new Exception("MockResponseSender could not be closed");      }
+      throw new Exception("MockResponseSender could not be closed");
+      }
 
 ```
 
@@ -134,8 +137,6 @@ public void loadProperties()
 
 ### Noise Comments
 
-
-* Stating the Obvious
 ```javascript
 // Avoid Monkey Patches from Application Insights
 // Avoid Monkey Patches from Application Insights
