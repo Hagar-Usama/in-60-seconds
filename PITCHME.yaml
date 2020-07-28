@@ -1,24 +1,33 @@
-#
-# Slide Design Templates Deck Settings
+# GitPitch In-60-Seconds - A Very Short Tutorial.
 #
 
-published : true
-
 #
-# The Theme Template
+# Theme Template
 # Doc: https://gitpitch.com/docs/themes/default
 #
 theme : Black
-theme-background : [ "linear-gradient(100deg, white 60%, #F0E68C 40.2%)" ]
-theme-headline   : [ "Montserrat", "#333", "none" ]
-theme-byline     : [ "Montserrat", "#111111", "none" ]
-theme-text       : [ "Raleway", "#1C1C1C", "none" ]
-theme-links      : [ "#FFF", "#E27924" ]
-theme-code       : [ "Fira Code" ]
+
+theme-background : [ "#000000" ]
+theme-headline   : [ "Montserrat", "#FBD95E", "none", "#FFFFFF", "100", "120", "15" ]
+theme-byline     : [ "Raleway", "#000000", "none", "#FBD95E", "100", "110", "15" ]
+theme-text       : [ "Ubuntu", "#ec3a8b", "none", "#A0C865", "100", "100", "15" ]
+theme-links      : [ "#F1C40F", "#5254F7" ]
+theme-code       : [ "Source Code Pro", "100", "120" ]
 theme-controls   : [ "#C0C0C0" ]
 theme-margins    : [ "0", "15px" ]
+layout           : center
 
-theme-override   : assets/css/PITCHME.css
+#
+# Highlight Setting
+# Doc: https://gitpitch.com/docs/settings/highlight
+#
+highlight : tomorrow
+
+#
+# Theme-Override Setting
+# Doc: https://gitpitch.com/docs/settings/custom-theme
+#
+theme-override: assets/css/PITCHME.css
 
 #
 # Logo Setting
@@ -28,15 +37,28 @@ logo : assets/img/logo.png
 logo-position : top-left
 
 #
+# Layout Setting
+# Doc: https://gitpitch.com/docs/settings/layout
+#
+layout : center
+
+#
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "GitPitch Slide Design Templates"
+footnote : "GitPitch - The Fastest Way From Idea To Presentation"
 
 #
-# Twitter Card Settings
+# Published Setting
+# Doc: https://gitpitch.com/docs/settings/published
+#
+published : true
+
+#
+# Twitter Card Settings [Pro Only]
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
-title : "Clean Code - Comments"
-description : "A collection of markdown snippets used to create high-utility slide designs within GitPitch slide decks."
-# thumbnail : assets/img/thumb.png
+title : "GitPitch In 60 Seconds"
+description : "A short tutorial introducing GitPitch Markdown Presentations for Developers."
+thumbnail : https://gitpitch.com/gpimg/tutorial-thumb.png
+
