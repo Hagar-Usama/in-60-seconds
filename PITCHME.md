@@ -1,6 +1,6 @@
 
 
-# // _Comments_ 
+# //_Comments_ 
 ---
 
  
@@ -20,11 +20,11 @@
 ## Bad Comments
 
 ---
-@snap[text-pink]
+
 ### Mumbling
  His mumbling left behind an _enigma_
 
-@snapend
+
 
 ```java
 public void loadProperties()
@@ -47,16 +47,17 @@ public void loadProperties()
 
 ---
 
-@snap[text-pink]
+
 ### Redundant Comments
 > If comments are not inforamtives, add no value to your code, just remove them.
 
  The comment probably takes longer to read than the code itself.
- @snapend
+ 
 
 
 ```java
- // Utility method that returns when this.closed       is true.  Throws an exception   // if the timeout is reached.
+ // Utility method that returns when this.closed is true.  Throws an exception
+ // if the timeout is reached.
 
  public synchronized void waitForClose(final long timeoutMillis)  throws Exception   {     
       if(!closed)      {       
@@ -67,18 +68,18 @@ public void loadProperties()
 ```
 
 --- 
-@snap[text-pink]
+
 ### Misleading Comments
 > Code never lies, comments do sometimes
 
 > Comments should desribe what your code **actualy** do, but not what you **wish** your code to do.
-@snapend
+
 ---
 
-@snap[text-pink]
+
 ### Mandated Comments
 > Do not add a comment for each function or  variable. If they do not need commenting, leave them uncommented.
-@snapend
+
 
 ```java
 /**
@@ -100,11 +101,11 @@ public void loadProperties()
 
 ```
 ---
-@snap[text-pink]
+
 ### Journal Commnets
 >  Adding a log-like comment isn't a good idea.<br> ⚠ Hey, we have version control now!
 
-@snapend
+
 
 ```java
 
@@ -130,13 +131,14 @@ public void loadProperties()
  * 05-Jan-2005 : Fixed bug in addYears() method (1096282) (DG);
 ```
 ---
-@snap[text-pink]
+
 ### Noise Comments
-@snapend
+
 
 * Stating the Obvious
 ```javascript
-// Avoid Monkey Patches from Application Insights// Avoid Monkey Patches from Application Insights
+// Avoid Monkey Patches from Application Insights
+// Avoid Monkey Patches from Application Insights
 bootstrap.avoidMonkeyPatchFromAppInsights();
 // Enable portable support
 bootstrap.configurePortable();
@@ -148,9 +150,9 @@ require('./bootstrap-amd').load('vs/code/node/cli');
 ```
 
 ---
-@snap[text-pink]
+
 ### Scary Noise Comments
-@snapend
+
 
 ```java
    /** The name. */
@@ -169,11 +171,10 @@ require('./bootstrap-amd').load('vs/code/node/cli');
 
 ---
 
-@snap[text-pink]
+
 ## References
 * Clean Code - ch4
 * [Five code comments you should stop writing // and one you should start](https://www.freecodecamp.org/news/5-comments-you-should-stop-writing-and-1-you-should-start-4d66a367cd2c/)
 * [Comments In Your Code](https://medium.com/better-programming/comments-in-your-code-730cfd1dde02)
 * [Clean Code – Comments and Formatting](https://www.todaysoftmag.com/article/1120/clean-code-comments-and-formatting)
 * [Clean Code Slides](https://www.slideshare.net/arturoherrero/clean-code-8036914)
-@snapend
