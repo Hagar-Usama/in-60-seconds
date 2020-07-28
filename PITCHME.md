@@ -84,7 +84,7 @@ Sometimes it is just helpful to translate the meaning of some obscure argument o
 ---
 
 ## Bad Comments
-
+--- 
 ### Mumbling
  His mumbling left behind an _enigma_
 ```java
@@ -108,7 +108,7 @@ public void loadProperties()
 ---
 
 ### Redundant Comments
-> If comments are not inforamtives, add no value to your code, just remove them.
+> If comments are not inforamtive, add no value to your code, just remove them.
 
  The comment probably takes longer to read than the code itself.
 ```java
@@ -185,9 +185,9 @@ public void loadProperties()
 ---
 
 ### Noise Comments
-* Stating the Obvious
 ```javascript
-// Avoid Monkey Patches from Application Insights// Avoid Monkey Patches from Application Insights
+// Avoid Monkey Patches from Application Insights
+// Avoid Monkey Patches from Application Insights
 bootstrap.avoidMonkeyPatchFromAppInsights();
 // Enable portable support
 bootstrap.configurePortable();
